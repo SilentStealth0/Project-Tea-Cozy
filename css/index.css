@@ -2,7 +2,7 @@
   background-color: black;
   font-size: 22px;
   color: seashell;
-  font-family: Helvetica;
+  font-family: Helvetica, serif;
   opacity: 0.9;
   text-align: center;
 }
@@ -11,6 +11,7 @@ header{
   height: 69px;
   border-bottom: 1px solid seashell;
   text-decoration: none;
+  display: flex;
 }
 
 header img{
@@ -19,8 +20,7 @@ header img{
   left: 10px;
 }
 
-header nav{
+header nav ul li{
   display: inline-flex;
   text-decoration: underline;
-
 }
