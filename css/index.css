@@ -34,6 +34,13 @@ header nav ul li{
   cursor: pointer;
 }
 
+.mission {
+  background-image: url(../img/img-mission-background.jpg);
+  background-size: 1200px 700px;
+  display: flex;
+  justify-content: center;
+}
+
 #tea_of_month div img{
   height: 200px;
   width: 300px;
