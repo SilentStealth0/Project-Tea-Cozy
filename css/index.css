@@ -12,6 +12,13 @@ header{
   border-bottom: 1px solid seashell;
   text-decoration: none;
   display: flex;
+  position: fixed;
+}
+
+header nav{
+  display: flex;
+  position: relative;
+  left: 920px;
 }
 
 header img{
@@ -23,4 +30,6 @@ header img{
 header nav ul li{
   display: inline-flex;
   text-decoration: underline;
+  padding-left: 20px;
+  cursor: pointer;
 }
