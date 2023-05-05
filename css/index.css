@@ -55,6 +55,14 @@ nav ul li{
   margin-top: 10px;
 }
 
+.mission_text h2{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.mission_text h4{
+  margin-bottom: 10px;
+}
+
 #tea_of_month div img{
   height: 200px;
   width: 300px;
