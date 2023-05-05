@@ -40,6 +40,8 @@ header nav ul li{
   width: 1200px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  margin: auto;
 }
 
 .mission_text{
