@@ -63,7 +63,24 @@ nav ul li{
   margin-bottom: 10px;
 }
 
-#tea_of_month div img{
+#tea_of_month {
+  font-size: 22px;
+  width: 1000px;
+  margin: auto;
+}
+
+.tea_list{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.tea_list div{
+  padding-left: 30px;
+}
+
+#tea_of_month div img {
   height: 200px;
   width: 300px;
 }
