@@ -8,6 +8,7 @@
 body{
   margin-top: 0;
 }
+/*header section */
 header{
   height: 69px;
   width: 100%;
@@ -39,6 +40,7 @@ nav ul li{
   padding-right: 10px;
 }
 
+/* Mission Section */
 .mission_picture {
   background-image: url("../img/img-mission-background.jpg");
   height: 700px;
@@ -63,6 +65,7 @@ nav ul li{
   margin-bottom: 10px;
 }
 
+/* Tea Section */
 #tea_of_month {
   font-size: 22px;
   width: 1000px;
@@ -88,4 +91,33 @@ nav ul li{
 #tea_of_month div img {
   height: 200px;
   width: 300px;
+}
+
+/* Location Section */
+#locations{
+  font-size: 22px;
+}
+.locations_background{
+  background-image: url("../img/img-locations-background.jpg");
+  height: 500px;
+  background-size: cover;
+}
+.location_container{
+  background-color: transparent;
+}
+
+#locations_title{
+  background-color: transparent;
+}
+
+.locations_cards{
+  display: inline-flex;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.locations_cards div {
+  width: 300px;
+  opacity: 1;
+  margin-left: 20px;
 }
