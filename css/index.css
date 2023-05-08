@@ -73,11 +73,16 @@ nav ul li{
   display: flex;
   width: 100%;
   flex-wrap: wrap;
-  align-content: center;
+  justify-content: center;
 }
 
 .tea_list div{
   padding-left: 30px;
+}
+
+.tea_list h4{
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 #tea_of_month div img {
