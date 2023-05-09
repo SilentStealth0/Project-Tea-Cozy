@@ -108,12 +108,15 @@ nav ul li{
 #locations{
   font-size: 22px;
   opacity: 0.9;
+  margin: auto;
 }
+
 .locations_background{
   background-image: url("../img/img-locations-background.jpg");
   height: 500px;
-  background-size: cover;
+  width: 1200px;
   opacity: 0.9;
+  margin: auto;
 }
 .location_container{
   background-color: transparent;
@@ -122,6 +125,8 @@ nav ul li{
 #locations_title{
   background-color: transparent;
   opacity: 0.9;
+  padding-top: 80px;
+  margin-bottom: 15px;
 }
 
 .locations_cards{
