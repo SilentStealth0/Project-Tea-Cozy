@@ -2,7 +2,7 @@
   background-color: black;
   color: seashell;
   font-family: Arial,Helvetica, serif;
-  opacity: 0.9;
+
   text-align: center;
 }
 body{
@@ -27,10 +27,12 @@ header{
   justify-content: space-between;
   align-items: center;
   padding: 0 10px;
+  opacity: 0.9;
 }
 
 .header_container img{
   height: 50px;
+  opacity: 0.9;
 }
 nav ul li{
   text-decoration: underline;
@@ -38,6 +40,7 @@ nav ul li{
   padding-left: 10px;
   font-size: 22px;
   padding-right: 10px;
+  opacity: 0.9;
 }
 
 /* Mission Section */
@@ -49,6 +52,7 @@ nav ul li{
   justify-content: center;
   flex-direction: column;
   margin: auto;
+  opacity: 0.9;
 }
 
 .mission_text{
@@ -60,9 +64,11 @@ nav ul li{
 .mission_text h2{
   margin-bottom: 10px;
   margin-top: 10px;
+  opacity: 0.9;
 }
 .mission_text h4{
   margin-bottom: 10px;
+  opacity: 0.9;
 }
 
 /* Tea Section */
@@ -70,6 +76,7 @@ nav ul li{
   font-size: 22px;
   width: 1000px;
   margin: auto;
+  opacity: 0.9;
 }
 
 .tea_list{
@@ -77,30 +84,36 @@ nav ul li{
   width: 100%;
   flex-wrap: wrap;
   justify-content: center;
+  opacity: 0.9;
 }
 
 .tea_list div{
   padding-left: 30px;
+  opacity: 0.9;
 }
 
 .tea_list h4{
   margin-top: 10px;
   margin-bottom: 30px;
+  opacity: 0.9;
 }
 
 #tea_of_month div img {
   height: 200px;
   width: 300px;
+  opacity: 0.9;
 }
 
 /* Location Section */
 #locations{
   font-size: 22px;
+  opacity: 0.9;
 }
 .locations_background{
   background-image: url("../img/img-locations-background.jpg");
   height: 500px;
   background-size: cover;
+  opacity: 0.9;
 }
 .location_container{
   background-color: transparent;
@@ -108,6 +121,7 @@ nav ul li{
 
 #locations_title{
   background-color: transparent;
+  opacity: 0.9;
 }
 
 .locations_cards{
@@ -120,4 +134,5 @@ nav ul li{
   width: 300px;
   opacity: 1;
   margin-left: 20px;
+
 }
